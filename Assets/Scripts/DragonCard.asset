@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e68b07d836d1c4c86185e02758bfa6, type: 3}
+  m_Name: DragonCard
+  m_EditorClassIdentifier: 
+  idCard: 1
+  cardName: DragonLeonel
+  cardDescription: Este dragon es gordo
+  cardImage: {fileID: 21300000, guid: d3cc0101ec516ab46a5eff798e09df29, type: 3}
+  obj3D: {fileID: 7942244169187242547, guid: 0bdf1374aee61fb429f0821b2e40b7ef, type: 3}
