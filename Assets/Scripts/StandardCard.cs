@@ -10,11 +10,9 @@ public class StandardCard : MonoBehaviour
     public TextMeshProUGUI nameCard;
     public Image iconCard;
     public ScriptableCards formCard;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+
+
 
     // Update is called once per frame
 
@@ -22,8 +20,11 @@ public class StandardCard : MonoBehaviour
         nameCard.text = formCard.name;
         iconCard.sprite = formCard.cardImage;
     }
-    void Update()
-    {
-        
+    public void CreateObject() {
+        //GameObject objeto = Instantiate(formCard.obj3D);
+        //objeto.transform.position = new Vector3(0,0,2);
+
+        GameObject _objeto = Instantiate(formCard.obj3D);
+        _objeto.transform.position = _objeto.transform.forward * 2.0f;
     }
 }
