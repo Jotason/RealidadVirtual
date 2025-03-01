@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1e68b07d836d1c4c86185e02758bfa6, type: 3}
-  m_Name: DragonCard
+  m_Name: TelefonoCard
   m_EditorClassIdentifier: 
-  idCard: 1
-  cardName: DragonLeonel
-  cardDescription: Este dragon es gordo
-  cardImage: {fileID: 21300000, guid: d3cc0101ec516ab46a5eff798e09df29, type: 3}
-  obj3D: {fileID: 7942244169187242547, guid: 0bdf1374aee61fb429f0821b2e40b7ef, type: 3}
+  idCard: 5
+  cardName: Telefono
+  cardDescription: TelefonoMoldeao
+  cardImage: {fileID: 21300000, guid: 2cda8b6b0c51d9846a6c346da0c22e95, type: 3}
+  obj3D: {fileID: 3132890505223593458, guid: fe347403f4560c54fab2c188ccdd2ba8, type: 3}

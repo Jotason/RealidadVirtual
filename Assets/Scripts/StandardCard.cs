@@ -13,11 +13,15 @@ public class StandardCard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nameCard.text = formCard.name;
-        iconCard.sprite = formCard.cardImage;
+        
     }
 
     // Update is called once per frame
+
+    public void LoadCard() {
+        nameCard.text = formCard.name;
+        iconCard.sprite = formCard.cardImage;
+    }
     void Update()
     {
         
