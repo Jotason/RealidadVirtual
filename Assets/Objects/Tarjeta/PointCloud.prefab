@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6928663663355802390}
   - component: {fileID: 5192419122269999868}
   - component: {fileID: 564541830243567138}
-  - component: {fileID: 384898620619002789}
+  - component: {fileID: -335154192303333908}
   m_Layer: 0
   m_Name: PointCloud
   m_TagString: Untagged
@@ -289,7 +289,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -665,7 +665,7 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 6
-    enabled: 1
+    enabled: 0
     type: 4
     angle: 25
     length: 5
@@ -4845,7 +4845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DestroyOnRemoval: 1
---- !u!114 &384898620619002789
+--- !u!114 &-335154192303333908
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4854,6 +4854,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8993501545224964764}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0865ed1da42853844860cbdf054fe047, type: 3}
+  m_Script: {fileID: 11500000, guid: 468ea6c98cd64494abbc2c2f34d6cde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
